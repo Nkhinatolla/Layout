@@ -1,0 +1,15 @@
+@import url('./vendor/reset.css');
+@import url('./components/header.css');
+@import url('./components/nav.css');
+@import url('./components/utp.css');
+@import url('./components/services.css');
+@import url('./components/title.css');
+@import url('./components/gridpage.css');
+@import url('./components/photos.css');
+@import url('./components/request.css');
+@import url('./components/contacts.css');
+@import url('./components/lastpage.css');
+@import url('./components/modal.css');
+@import url('./components/input.css');
+@import url('./components/button.css');
+@import url('./components/aside.css');

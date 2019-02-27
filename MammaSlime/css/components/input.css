@@ -1,0 +1,38 @@
+.input {
+  outline: none;
+  border: 1px solid #a9a9a9;
+  color: #999;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 10px 12px;
+}
+  .input_login {
+    background: #F4F4F4;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #99C454;
+    padding: 14px 10px;
+    width: 200px;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s;
+  }
+    .input_login:focus {
+      width: 220px;
+      border-color: #2ecc71;
+    }
+  .input_request {
+    background: #F4F4F4;
+    width: 200px;
+    padding: 10px 16px 9px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+  @media screen and (max-width: 780px) {
+   .input_request {
+     display: flex;
+     justify-content: center;
+   }
+  }

@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lesson 2</title>
+    <link rel="stylesheet" href="./css/all.css">
+  </head>
+  <body link= "#000000" vlink="#000000" alink="#000000">
+    <section class = "aside" id = "aside">
+      <img class = "aside_close" src="./img/widgets/close.svg" onclick = "toggleAside()">
+      <div class = "aside__inner">
+        <a href = "#" class = "aside__link">
+          Главная
+        </a>
+        <a href = "#" class = "aside__link">
+          День Рождения
+        </a>
+        <a href = "#" class = "aside__link">
+          Отдых с семьей
+        </a>
+        <a href = "#" class = "aside__link">
+          Галерея
+        </a>
+      </div>
+    </section>
+    <header class="header">
+      <div class="header__top">
+          <div class = "header__address">
+            <img class = "header__icon" src = "./img/widgets/location.svg" alt="">
+            г.Алматы, ул.Толе би 59
+          </div>
+          <div class = "header__phone">
+            <img class = "header__icon" src = "./img/widgets/phone.svg" alt="">
+            тел: 87054513869
+          </div>
+      </div>
+      <div class = "header__bottom">
+        <img class = "header_logo" src = "./img/widgets/logo.svg" alt="Logo" onclick="toggleModal()" style = "cursor:pointer">
+        <nav class = "nav">
+          <div class = "nav__link nav__link_active"> Главная </div>
+          <div class = "nav__link nav__link_wmargins" >
+            Праздники
+            <img src = "./img/widgets/SmallArrowPink.svg" class = "nav__arrow__hover">
+            <img src = "./img/widgets/SmallArrowBlack.svg" class = "nav__arrow">
+              <ul class="dropdown">
+                <div class = "dropdown__triangle"> </div>
+                <li> <a class = "dropdown__link dropdown__link1" href="https://www.google.kz/" target="_blank"> День Рождения </a> </li>
+                <li> <a class = "dropdown__link dropdown__link2" href="https://www.google.com/" target="_blank"> Отдых с семьей </a> </li>
+              </ul>
+          </div>
+          <div class = "nav__link nav__link_gallery"> Галерея </div>
+        </nav>
+        <div class = "header__menu" onclick = "toggleAside()">
+          <span class = "header__menu-text"> Меню </span>
+          <img class = "header__menu-img" src="./img/widgets/menu.svg">
+        </div>
+      </div>
+    </header>
+    <section class = "utp">
+      <div class = "utp__overlay">    </div>
+      <div class = "utp__inner">
+        <div class = "utp__subtitle"> Добро пожаловать </div>
+        <img src = "./img/widgets/MammaSmile.svg" class = "utp__title">
+        <div class = "utp__subtitle"> Самое семейное... </div>
+      </div>
+      <a href="#gridpage">
+        <img src = "./img/widgets/arrow.svg" class = "utp__arrow">
+      </a>
+    </section>
+    <section class = "gridpage" id = "gridpage">
+      <div class = "title">
+        <div class = "title__main">
+          Праздник в Mamma Smile это
+        </div>
+        <div class = "title__description">
+          <div> Mamma Smile - это больше, чем просто семейное кафе. </div>
+          <div> Это современное креативное пространство для детей и их родителей. </div>
+        </div>
+      </div>
+      <div class = "gridpage__block">
+        <div class = "gridpage__layer gridpage__layer1">
+          <div class = "gridpage__icons pizza">
+            <img src = "./img/widgets/gridpage/pizza.svg">
+            <div class = "gridpage__icons_description">
+              Вкусная еда
+            </div>
+          </div>
+          <div class = "gridpage__icons circus">
+            <img src = "./img/widgets/gridpage/circus.svg">
+            <div class = "gridpage__icons_description">
+              Детская игровая зона
+            </div>
+          </div>
+          <div class = "gridpage__icons speaker">
+            <img src = "./img/widgets/gridpage/speaker.svg">
+            <div class = "gridpage__icons_description">
+              Ивент-площадка
+            </div>
+          </div>
+        </div>
+        <div class = "gridpage__layer gridpage__layer2">
+          <div class = "gridpage__icons balloons">
+            <img src = "./img/widgets/gridpage/balloons.svg">
+            <div class = "gridpage__icons_description">
+            <div>
+              Организация детских
+            </div>
+            <div>
+              праздников
+            </div>
+            </div>
+          </div>
+          <div class = "gridpage__icons suit">
+            <img src = "./img/widgets/gridpage/suit.svg">
+            <div class = "gridpage__icons_description">
+              Коворкинг зона
+            </div>
+          </div>
+          <div class = "gridpage__icons microphone">
+            <img src = "./img/widgets/gridpage/microphone.svg">
+            <div class = "gridpage__icons_description">
+              <div> Образовательная </div>
+              <div> площадка </div>
+            </div>
+          </div>
+        </div>
+        <div class = "gridpage__layer gridpage__layer3">
+          <div class = "gridpage__icons garlands">
+            <img src = "./img/widgets/gridpage/garlands.svg">
+            <div class = "gridpage__icons_description">
+              <div>
+                Праздничное
+              </div>
+              <div>
+                оформление
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "services">
+      <div class = "title">
+        <div class = "title__main">
+          Наши услуги
+        </div>
+        <div class = "title__description">
+          <div>
+            Благодаря слаженной организации и отличной локации,
+          </div>
+          <div>
+            мы сделаем ваше торжество незабываемым.
+          </div>
+        </div>
+      </div>
+      <div class="services__grid">
+        <div class="services__item">
+          <div class = "services__img">
+            <img src = "./img/services/1.png">
+          </div>
+          <div class = "services__info">
+            <div class = "services__title">
+              Отдых с семьей
+            </div>
+            <div class = "services__description">
+              У нас есть все условия для семейного отдыха
+            </div>
+            <a href="#" class = "services__link">
+              Подробнее
+              <img class="services__arrow_black" src="./img/widgets/services-arrow-black.svg" >
+              <img class="services__arrow_pink" src="./img/widgets/services-arrow-pink.svg" >
+            </a>
+          </div>
+        </div>
+        <div class="services__item">
+          <div class = "services__img">
+            <img src = "./img/services/2.png">
+          </div>
+          <div class= "services__info">
+            <div class = "services__title">
+              Дни рождения
+            </div>
+            <div class = "services__description">
+              Мы оргазниуем праздники под ключ. Аниматоры, ведущие, декорации.
+            </div>
+            <a href="#" class = "services__link">
+              Подробнее
+              <img class="services__arrow_black" src="./img/widgets/services-arrow-black.svg" >
+              <img class="services__arrow_pink" src="./img/widgets/services-arrow-pink.svg" >
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "photos">
+      <div class = "photos__block photos__block_column">
+        <div class = "photos__item photos__item_first">
+          <img src="./img/photos/1.png" class = "photos__img">
+        </div>
+        <div class = "photos__item photos__item_second">
+          <img src = "./img/photos/4.png" class = "photos__img">
+        </div>
+      </div>
+      <div class = "photos__block photos__block_row">
+        <div class = "photos__top">
+          <div class = "photos__item photos__item_third">
+            <img src="./img/photos/2.png" class = "photos__img">
+          </div>
+          <div class = "photos__item photos__item_four">
+            <img src = "./img/photos/3.png" class = "photos__img">
+          </div>
+        </div>
+         <div class = "photos__bottom">
+           <div class = "photos_link">
+             <a href="#" class = "services__link">
+               Посмотреть всю галерею
+               <img class="services__arrow_black" src="./img/widgets/services-arrow-black.svg" >
+               <img class="services__arrow_pink" src="./img/widgets/services-arrow-pink.svg" >
+             </a>
+           </div>
+           <div class = "photos__item photos__item_fifth">
+
+             <img src = "./img/photos/5.png" class = "photos__img">
+           </div>
+           <div class = "photos__item photos__item_sixth">
+             <img src = "./img/photos/6.png" class = "photos__img">
+           </div>
+         </div>
+      </div>
+    </section>
+    <section class = "request">
+      <div class = "title">
+        <div class = "title__main">
+          Возникли вопросы?
+        </div>
+        <div class = "title__description">
+            Оставьте заявку и мы вам обязательно позвоним
+        </div>
+      </div>
+      <div class = "request__block">
+        <input class = "input input_request" type="text" placeholder = "Ваше имя">
+        <input class = "input input_request" type="text" placeholder = "+7 (---) --- -- --">
+        <input class = "buttun button_request" type = "submit" value = "Оставить заявку">
+      </div>
+    </section>
+    <section class = "contacts">
+      <div class = "title">
+        <div class = "title__main">
+          Контакты
+        </div>
+        <div class = "title__description">
+            <div>
+              Мы находимся у подножий гор в городе Алматы.
+            </div>
+            <div>
+              Более точный адрес можете посмотреть на карте ниже
+            </div>
+        </div>
+      </div>
+      <div class = "contacts__block">
+        <div class = "contacts__item contacts_map" id = "map">
+        </div>
+        <div class = "contacts__item contacts__information">
+          <div class = "contacts_info contacts__information_address">
+              <div class = "contacts_title">
+                Адрес
+              </div>
+              <div class = "contacts_description">
+                <div> г. Алматы, Баганашыл-2, </div>
+                <div> ЖК «Наурыз», ул. Мади, 5, корп. 13 </div>
+              </div>
+              <div class = "contacts_phone">
+                 +7 (776) 222 33 33
+              </div>
+          </div>
+          <div class = "contacts_info contacts__information_time">
+            <div class = "contacts_title">
+              Режим работы
+            </div>
+            <div class = "contacts_description">
+              <div class = "contacts_row"> Понедельник - четверг:  <div class = "contacts__information_time" > 11:00 - 23:00 </div> </div>
+              <div class = "contacts_row"> Пятница и суббота:  <div class = "contacts__information_time" > 11:00 - 24:00 </div> </div>
+              <div class = "contacts_row"> Воскресенье:  <div class = "contacts__information_time" > 11:00 - 23:00 </div> </div>
+            </div>
+          </div>
+          <div class = "contacts_info contacts__information_links">
+            <div class = "contacts_title">
+              Наши страницы
+            </div>
+            <div class = "contacts_icons">
+              <img src="./img/widgets/facebook.svg">
+              <img src="./img/widgets/instagram.svg">
+              <div> @mammasmile.cafe </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class = "lastpage">
+      <div class = "lastpage__main">
+          <div class = "lastpage__left">
+            <img class = "lastpage__left_logo" src = "./img/widgets/kids.svg" alt="Logo">
+          </div>
+          <div class = "lastpage__info">
+              <div class = "lastpage__info_icon">
+                <img src="./img/widgets/facebook-reverse.svg">
+                <img src="./img/widgets/instagram-reverse.svg">
+              </div>
+              <div class = "lastpage__info_phone">
+                 +7 (776) 222 33 33
+              </div>
+              <div class = "lastpage__info_description">
+                 <div>
+                 г. Алматы, Баганашыл-2,
+                </div>
+                <div>
+                  ЖК «Наурыз», ул. Мади, 5, корп. 13
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class = "lastpage_author">
+        Mamma Smile (c) 2019
+      </div>
+    </section>
+    <section class = "modal" id = "modal">
+      <div class= "modal__overlay" onclick = "toggleModal()">
+      </div>
+      <div class= "modal__window">
+         <div class = "modal_exit">
+
+         </div>
+         <div class = "modal__title">
+           Login
+         </div>
+         <div class = "modal__content">
+             <input type = "text" class = "input input_login" placeholder="Username">
+             <input type = "password" class = "input input_login" placeholder="Password">
+             <button type = "button" class = "button button_login">Login</button>
+         </div>
+      </div>
+    </section>
+    <script src="./script/common/modal.js"> </script>
+    <script src="./script/common/aside.js"> </script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=8d8f77f1-6595-4e53-be40-ddacd2ec9f31&lang=ru_RU"> </script>
+    <script src="./script/common/map.js"> </script>
+  </body>
+</html>

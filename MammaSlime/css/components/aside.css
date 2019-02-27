@@ -1,0 +1,31 @@
+.aside {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: #DD0090;
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+  .aside_active {
+    right: 0;
+  }
+  .aside_close {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  .aside__link {
+    display: block;
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    padding: 12px 0;
+    color: #FFF;
+  }
