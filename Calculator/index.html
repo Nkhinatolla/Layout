@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Test </title>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class = "calc">
+      <div class = "calc__display" id = "display">
+        0</div>
+      <div class = "calc__keyboard">
+        <div class="calc__button calc__button_darkgrey" onclick="clearDisplay()">
+          C
+        </div>
+        <div class="calc__button calc__button_darkgrey" onclick="changeChar()">
+          +/-
+        </div>
+        <div class="calc__button calc__button_darkgrey" onclick="doOperation('%')">
+          %
+        </div>
+        <div class="calc__button calc__button_orange" onclick = "doOperation('/')">
+          /
+        </div>
+        <div class="calc__button calc__button_grey" onclick = "toggleNumber('7')">
+          7
+        </div>
+        <div class="calc__button calc__button_grey" onclick = "toggleNumber('8')">
+          8
+        </div>
+        <div class="calc__button calc__button_grey" onclick = "toggleNumber('9')">
+          9
+        </div>
+        <div class="calc__button calc__button_orange" onclick = "doOperation('*')">
+          x
+        </div>
+        <div class="calc__button calc__button_grey" onclick = "toggleNumber('4')">
+          4
+        </div>
+        <div class="calc__button calc__button_grey" onclick = "toggleNumber('5')">
+          5
+        </div>
+        <div class="calc__button calc__button_grey" onclick = "toggleNumber('6')">
+          6
+        </div>
+        <div class="calc__button calc__button_orange" onclick = "doOperation('-')">
+          -
+        </div>
+        <div class="calc__button calc__button_grey" onclick = "toggleNumber('1')">
+          1
+        </div>
+        <div class="calc__button calc__button_grey" onclick = "toggleNumber('2')">
+          2
+        </div>
+        <div class="calc__button calc__button_grey" onclick = "toggleNumber('3')">
+          3
+        </div>
+        <div class="calc__button calc__button_orange" onclick = "doOperation('+')">
+          +
+        </div>
+        <div class="calc__button calc__button_zero calc__button_grey" onclick = "toggleNumber('0')">
+             0
+        </div>
+        <div class="calc__button calc__button_grey" onclick="addDot()">
+          .
+        </div>
+        <div class="calc__button calc__button_orange" onclick = "doOperation('=')">
+          =
+        </div>
+      </div>
+    </div>
+    <img src="./Bug.png" class = "bug" id = "bug">
+    <script src = "index.js"> </script>
+    <script src = "bug.js"> </script>
+  </body>
+</html>

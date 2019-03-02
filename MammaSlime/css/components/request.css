@@ -13,8 +13,12 @@
 }
 
 @media screen and (max-width: 780px) {
+  .request {
+    padding-top: 50px;
+    padding-bottom: 60px;
+  }
   .request__block {
     flex-direction: column;
-    padding: 0 35%;
+    align-items: center;
   }
 }

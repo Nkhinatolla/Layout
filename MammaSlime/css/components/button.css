@@ -45,3 +45,18 @@
       color: #99C454;
       background: #FFFFFF;
     }
+  @media screen and (max-width: 780px) {
+    .button_request {
+      background: #99C454;
+      border: 2px solid #99C454;
+      border-radius: 24px;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      padding: 14px 40px;
+      color: white;
+      font-weight: 500;
+      transition: 0.25s;
+      width: auto;
+    }
+  }

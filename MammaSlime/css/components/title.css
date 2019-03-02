@@ -2,16 +2,29 @@
   width: 100%;
   margin-bottom: 64px;
 }
-.title__main {
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 20px;
-  font-weight: 600;
-}
-.title__description {
-  font-size: 20px;
-  text-align: center;
-  color: #151D28;
-  line-height: 1.4;
-  font-weight: 300;
+  .title__main {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    font-weight: 600;
+  }
+    .title__description {
+      font-size: 20px;
+      text-align: center;
+      padding: 0 20px;
+      color: #151D28;
+      line-height: 1.4;
+      font-weight: 300;
+    }
+@media screen and (max-width: 780px) {
+  .title {
+    margin-bottom: 50px;
+  }
+  .title__main {
+    font-size: 20px;
+  }
+    .title__description {
+      font-size: 15px;
+    }
 }
