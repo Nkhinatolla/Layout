@@ -1,0 +1,83 @@
+  .catalog__content__body {
+    padding: 20px 0 190px;
+    display: flex;
+    flex-direction: row;
+  }
+  .catalog__content__left {
+    margin-right: 30px;
+  }
+    .catalog__content__category_title {
+      font-size: 18px;
+      margin: 20px 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    .class__content__category_reset {
+      color:#BC943B;
+      font-size: 12px;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .catalog__content_choose {
+      font-size: 12px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+      .catalog__content_choose div {
+        margin-bottom: 20px;
+      }
+    .container {
+      margin: 20px 0;
+    }
+      .container img {
+        padding-right: 10px;
+        cursor: pointer;
+      }
+  .catalog__content__variants__gridpage {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+    .catalog__content__variant {
+      display: flex;
+      flex-direction: column;
+      margin: 0 10px 52px 0;
+      width: 260px;
+    }
+        .catalog__content__variant__block {
+          position: relative;
+        }
+        .catalog__content__variant__block div {
+          position: absolute;
+        }
+          .catalog__content__variant_sale {
+            bottom: 10px;
+            left: 10px;
+            background: #F8E71C;
+            padding: 4px 7px;
+            font-size: 15px;
+            text-transform: uppercase;
+          }
+          .catalog__content__variant_like {
+            bottom: 10px;
+            right: 10px;
+            cursor: pointer;
+          }
+    .catalog__content__variant__description {
+      font-size: 16px;
+      line-height: 1.4;
+      color: #33333A;
+      margin-top: 10px;
+    }
+      .catalog__content__variant_title{
+        font-weight: 600;
+      }
+      .catalog__content__variant_price {
+        display: flex;
+      }
+        .catalog__content__variant_price-stock {
+          display: flex;
+          padding-left: 16px;
+          text-decoration: line-through;
+        }

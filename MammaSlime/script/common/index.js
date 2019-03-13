@@ -6,7 +6,7 @@
 
 var city = "Yellow blue green";
 
-//charAt  
+//charAt
 console.log(city.charAt(0));
 
 //indexOf
@@ -115,13 +115,6 @@ var result = year > 2001
 for (var i = 0; i < 3; i++) {
 
 }
-
-function toggleAside() {
-
-  return "";
-}
-
-toggleAside();
 
 //this
 

@@ -1,0 +1,25 @@
+.catalog__advertising {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  color: white;
+  }
+  .catalog__advertising__img {
+    width: 65%;
+    display: flex;
+    overflow:hidden;
+  }
+  .catalog__advertising__info {
+    width: 35%;
+    background: #000000;
+  }
+    .catalog__advertising_title {
+      padding: 30px 30px 20px;
+      font-size: 36px;
+    }
+    .catalog__advertising_description {
+      padding: 30px 30px 50px;
+      line-height: 1.4;
+      font-size: 14px;
+      font-weight: 300;
+    }

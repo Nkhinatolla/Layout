@@ -44,4 +44,8 @@
      border-radius: 24px;
      transition: 0.25s;
    }
+   .input_request:focus {
+     width: 220px;
+     border-color: #2ecc71;
+   }
   }

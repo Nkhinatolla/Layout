@@ -70,7 +70,7 @@ function printResult(){
     DISPLAY.innerHTML = 'error';
   }
   else {
-    DISPLAY.innerHTML = result;
+    DISPLAY.innerHTML = Math.round(result * 100) / 100;
   }
   input = "";
   tik();
